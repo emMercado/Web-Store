@@ -1,5 +1,9 @@
+
 function helloFront (req, res) {
-    res.json({message: 'Hello Frontend!!'});
+
+
+     res.json({message: 'Hello Frontend!!'}); 
+
 }
 
-module.exports = { helloFront };
+module.exports = {helloFront} ;

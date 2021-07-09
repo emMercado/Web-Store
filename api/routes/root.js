@@ -2,9 +2,12 @@ const express = require('express');
 const router = express.Router();
 const rootController = require('../controllers/root.controller');
 
-router.get('/', function(req, res) {
-    // rootController.helloFront(req, res);
-    res.send('Hello Frontend!!');
-})
 
-module.export = router;
+router.get('/', function(req, res) {
+
+
+    rootController.helloFront(req, res); 
+   
+});
+
+module.exports = router;  
